@@ -1,0 +1,362 @@
+/* header */
+.header {
+  padding: 40px 0 150px;
+  background: url("../img/BG.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.nav {
+  align-items: center;
+}
+
+.header__logo {
+  margin-top: -14px;
+}
+
+.nav__list {
+  margin-left: 17px;
+}
+
+.nav__item {
+  margin-left: 50px;
+}
+
+.nav__link {
+  font-size: 16px;
+  color: #fff;
+}
+
+.nav__link:hover {
+  border-bottom: 1px solid;
+  border-image: linear-gradient(74deg, #5e3928, #e4a16f);
+  border-image-slice: 1;
+  background-image: linear-gradient(74deg, #5e3928, #e4a16f);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: url("../img/Vector\ 10.png"), auto;
+}
+
+.info {
+  margin-left: 403px;
+  gap: 20px;
+}
+
+.info__link {
+  margin-top: -228px;
+  overflow: hidden;
+  display: inline-block;
+  padding: 212px 10px 14px 10px;
+  background: #fff;
+  color: #0b3f37;
+  font-size: 28px;
+}
+
+.fa-cart-shopping {
+  background-image: linear-gradient(74deg, #5e3928, #e4a16f);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header__title {
+  margin-top: 145px;
+  font-family: "Lighthaus";
+  font-weight: 400;
+  font-size: 100px;
+}
+
+.header__title:after {
+  content: "";
+  display: block;
+  border: 1px solid #fff;
+  max-width: 623px;
+  margin-top: 49px;
+}
+
+.oil {
+  margin-top: 50px;
+}
+
+.oil__title {
+  font-family: "Mont";
+  font-weight: 800;
+  max-width: 533px;
+  width: 100%;
+}
+
+.oil__offer {
+  margin-top: 40px;
+  font-size: 30px;
+  max-width: 326px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.oil__price {
+  font-weight: 800;
+}
+
+.oil__link {
+  font-size: 18px;
+  font-weight: 800;
+  display: inline-block;
+  padding: 16px 131px 17px 132px;
+  max-width: 327px;
+  width: 100%;
+  margin-top: 41px;
+  background-image: linear-gradient(74deg, #5e3928, #e4a16f);
+  color: #fff;
+  text-align: center;
+}
+
+.colors {
+  margin-top: 71px;
+  gap: 10px;
+}
+
+.color__1 {
+  background-image: linear-gradient(74deg, #5e3928, #e4a16f);
+  width: 12px;
+  height: 12px;
+}
+
+.color__2 {
+  background: #fff;
+  width: 12px;
+  height: 12px;
+}
+
+.color__2 {
+  background: #fff;
+  width: 12px;
+  height: 12px;
+}
+
+/* product */
+
+.product {
+  background: #fff;
+  padding: 76px 0 74px;
+  text-align: center;
+}
+
+.product__collage {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 31px;
+}
+
+.product__img {
+  max-width: 446px;
+  width: 100%;
+  box-shadow: 0 0 50px rgb(0 0 0 / 12%);
+}
+
+.product__img:last-of-type {
+  max-height: 444px;
+  height: 100%;
+}
+
+/* sales */
+
+.sales {
+  padding: 110px 0 100px;
+  text-align: center;
+  background-image: url("../img/fone.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sales__top {
+  margin-top: 40px;
+  justify-content: center;
+  gap: 31px;
+}
+
+.sales__wrap {
+  flex-direction: column;
+  text-align: left;
+}
+
+.sales__img {
+  max-width: 446px;
+  width: 100%;
+}
+
+.sales__text__wrap {
+  justify-content: space-between;
+  align-items: flex-end;
+  color: #031412;
+}
+
+.sales__text-1,
+.sales__text-2,
+.sales__text-3 {
+  margin-top: 29px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.sales__text-1 {
+  max-width: 257px;
+  width: 100%;
+}
+
+.sales__price {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.sales__colors {
+  justify-content: center;
+}
+
+.sales__colors {
+  margin-top: 47px;
+  gap: 10px;
+}
+
+.colors__1 {
+  background-image: linear-gradient(74deg, #5e3928, #e4a16f);
+  width: 12px;
+  height: 12px;
+}
+
+.colors__2 {
+  background: #031412;
+  width: 12px;
+  height: 12px;
+}
+
+.sales__link {
+  font-size: 18px;
+  font-weight: 800;
+  padding: 17px;
+  display: inline-block;
+  max-width: 327px;
+  width: 100%;
+  margin-top: 42px;
+  background-image: linear-gradient(74deg, #5e3928, #e4a16f);
+  color: #fff;
+}
+
+/* new */
+.new {
+  text-align: center;
+  padding: 66px 0 76px;
+}
+
+.new__wrap {
+  flex-direction: column;
+  text-align: left;
+}
+
+.new__img {
+  max-width: 446px;
+  width: 100%;
+}
+
+.new__text__wrap {
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.new__text {
+  color: #031412;
+  max-width: 257px;
+  margin-top: 29px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.new__price {
+  flex-direction: column;
+  color: #9b0000;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.new__price-2 {
+  color: #031412;
+  opacity: 30%;
+  position: relative;
+  font-size: 20px;
+  text-align: right;
+}
+
+.new__price-2:after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 30%;
+  top: 50%;
+  right: 0;
+  opacity: 30%;
+  border: 1px solid #031412;
+  rotate: 18deg;
+  max-width: 95px;
+  width: 100%;
+}
+
+/* three */
+
+.three {
+  padding: 80px 0 39px;
+  background: url("../img/BG.png"),
+    url("../img/247373612_410886857150066_1869954703113193933_n\ 1.png");
+  background-position: left center, right center;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.three__main {
+  flex-direction: column;
+  row-gap: 50px;
+}
+
+.three__title {
+  font-size: 140px;
+}
+
+.three__second__title {
+  text-transform: none;
+  font-family: "Mont";
+  font-weight: 600;
+  font-size: 35px;
+  max-width: 533px;
+  width: 100%;
+}
+
+.three__link {
+  font-size: 18px;
+  font-weight: 800;
+  padding: 17px;
+  display: inline-block;
+  max-width: 327px;
+  width: 100%;
+  margin-top: 42px;
+  background-image: linear-gradient(74deg, #5e3928, #e4a16f);
+  color: #fff;
+  text-align: center;
+}
+
+/* recommend */
+.recommend {
+  padding: 39px 0 80px;
+  text-align: center;
+}
+
+/* discount */
+
+.discount {
+  padding: 80px 0 80px;
+  text-align: center;
+  background-image: url("../img/fone.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
