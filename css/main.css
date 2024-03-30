@@ -84,6 +84,7 @@
   font-weight: 800;
   max-width: 533px;
   width: 100%;
+  text-transform: none;
 }
 
 .oil__offer {
@@ -147,6 +148,18 @@
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 31px;
+}
+
+.product__img-overlay {
+  position: relative;
+}
+
+.product__img-text {
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: none;
+  color: #fff;
 }
 
 .product__img {
@@ -359,4 +372,193 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+/* about */
+.about {
+  padding: 100px 0 30px;
+  text-align: center;
+}
+
+.contact__list {
+  margin-top: 40px;
+  justify-content: space-between;
+}
+
+.contact__item {
+  background: #fff;
+  max-width: 446px;
+  width: 100%;
+}
+
+.contact__character {
+  box-shadow: 0 0 5px rgb(0 0 0 / 6%);
+  text-align: left;
+  padding: 21px 40px 55px 30px;
+  flex-direction: column;
+  gap: 18px;
+  max-width: 376px;
+  width: 100%;
+}
+
+.contact__img {
+  max-width: 63px;
+}
+
+.contact__name {
+  font-family: "Mont";
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.contact__text {
+  font-weight: 400;
+}
+
+.contact__time {
+  font-size: 14px;
+  font-weight: 800;
+}
+
+/* us */
+.us {
+  padding: 110px 0 100px;
+  text-align: center;
+  background: #e5e5e5;
+  /* background-image: url("../img/fone.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+.us__list {
+  justify-content: space-between;
+  margin-top: 49px;
+  flex-wrap: wrap;
+  gap: 34px;
+}
+
+.us__info {
+  text-align: left;
+  font-family: "Mont";
+  max-width: 308px;
+  width: 100%;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 14px;
+}
+
+.us__img {
+  max-width: 76px;
+  width: 100%;
+}
+
+.us__title {
+  font-family: "Mont";
+  font-weight: 800;
+  text-transform: none;
+  font-size: 20px;
+}
+
+.us__text {
+  color: #031412;
+}
+
+.us__link {
+  font-weight: 800;
+  background-image: linear-gradient(74deg, #5e3928, #e4a16f);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fa-angle-down {
+  color: #cf9164;
+  width: 8px;
+  margin-left: 7px;
+}
+
+/* footer */
+
+.footer {
+  background: url("../img/Rectangle\ 25.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 79px 0 74px;
+}
+
+.footer__main {
+  justify-content: space-between;
+  text-align: left;
+}
+
+.rights {
+  font-size: 14px;
+  flex-direction: column;
+}
+
+.footer__img {
+  max-width: 160px;
+  width: 100%;
+}
+
+.rights__text {
+  margin-top: 24px;
+  color: #adadad;
+  max-width: 214px;
+  width: 100%;
+}
+
+.rights__link {
+  margin-top: 21px;
+  color: #fff;
+}
+
+.rights__link:after {
+  content: "";
+  max-width: 229px;
+  width: 100%;
+  border-bottom: 1px solid #fff;
+  display: block;
+  margin-top: -4px;
+}
+
+.footer__nav {
+  color: #fff;
+  justify-content: space-between;
+  max-width: 643px;
+  width: 100%;
+  gap: 137px;
+}
+
+.footer__list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.footer__title {
+  font-weight: 800;
+  font-size: 18px;
+  font-family: "Mont";
+}
+
+.footer__link {
+  color: #fff;
+  font-size: 13px;
+}
+
+.footer__link-adress {
+  max-width: 132px;
+  width: 100%;
+  color: #fff;
+}
+
+.social {
+  gap: 19px;
+  margin-top: 16px;
+}
+
+.social i {
+  font-size: 20px;
 }
