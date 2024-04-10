@@ -57,6 +57,7 @@ a,
 a:hover,
 a:active {
   text-decoration: none;
+  cursor: url("../img/Vector\ 10.png"), auto;
 }
 
 input,
@@ -78,14 +79,59 @@ button:active {
 
 /* media size */
 
-/* @media screen and (max-width: 1200px) {
-}
+/* $grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+); */
 
-@media screen and (max-width: 992px) {
-}
+/* измеряю по бокам расстояние до границы и отнимаю
+например 1200-261px */
 
-@media screen and (max-width: 768px) {
-}
-
-@media screen and (max-width: 576px) {
+/* @media screen and (max-width: 1920px) {
+  .container {
+    max-width: 1659px;
+  }
 } */
+
+/* 992-1200px */
+
+@media screen and (max-width: 1400px) {
+  .container {
+    max-width: 1397;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 1040px;
+    width: 90%;
+  }
+}
+
+/* 768-992px */
+@media screen and (max-width: 992px) {
+  .container {
+    max-width: 720px;
+    width: 90%;
+  }
+}
+
+/* 576-768px */
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 719px;
+    width: 90%;
+  }
+}
+
+/* 0- 576, 320-576px */
+@media screen and (max-width: 576px) {
+  .container {
+    width: 90%;
+  }
+}
